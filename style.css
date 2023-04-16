@@ -1,0 +1,131 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+.formChat[method='post']{
+	width: 100%;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.formChat[method='post'] .form__group{
+	width: 80%;
+}
+.formChat[method='post'] textarea{
+	width: 100%;
+}
+.formChat[method='post']  input[type='submit']{
+padding: 5px;
+font-size: 15px;
+}
+.chatLink{
+	color: #16ecec;
+}
+.error{
+	color: red;
+}
+.desc{
+	text-align: center;
+	max-width:600px;
+	margin: 0 auto;
+}
+.formChat .btn{
+	background: #069b8d;
+	font-size: 20px;
+}
+.author{
+	font-style: italic;
+	font-weight: bold;
+	padding-left:5px; 
+	
+}
+.btnContainer{
+	text-align: center;
+}
+.messages{
+background: url("bg.jpg");
+
+max-height: 80vh;
+overflow-y: scroll;
+padding: 0 10px;
+background-size: 52% 89%;
+
+}
+.message__body{
+	word-wrap:break-word;
+}
+textarea::-webkit-input-placeholder{
+	text-align: center;
+}
+textarea::-moz-placeholder{
+	text-align: center;
+}
+textarea:-ms-input-placeholder{
+	text-align: center;
+}
+textarea::-ms-input-placeholder{
+	text-align: center;
+}
+textarea::placeholder{
+	text-align: center;
+}
+.message{
+	max-width: 65%;
+    border-radius: 10px;
+    padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	-webkit-box-shadow:2px 1px 3px 0px #443737;
+	        box-shadow:2px 1px 3px 0px #443737;
+	min-width: 125px;
+}
+.message--right{
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.message--right .message{
+	background: #9ca2ff;
+	margin-right:5px;
+}
+.message--left{
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.message--left .message{
+	background: #79de27;
+	margin-left:5px;
+}
+.message__footer{
+	height: 21px;
+    text-align: right;
+}
+.container--chat{
+	max-width: 600px;
+
+	margin: 0 auto;
+    border: 2px solid black;
+}
